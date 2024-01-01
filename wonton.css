@@ -1,0 +1,68 @@
+h1 {
+  font-family: Georgia, Arial;
+}
+.image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 95px;
+  border: 2px solid #d7893d;
+  margin: 0px;
+}
+
+main {
+  width: 100%;
+  padding: 20px 5px 0px 175px;
+  background-color: #f4dfcc;
+  color: #000000;
+}
+.divider{
+border-bottom: 2px solid gray;
+margin: 20px 0;
+}
+.recipe{
+  background-image: url("https://i.redd.it/6l2vgnqlkuz91.jpg");
+  background-size: 100% 100%;
+  background-color: rgba(244, 223, 204,0.9);
+  background-blend-mode: lighten;
+}
+* {
+  box-sizing: border-box;
+}
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+header{
+  width: 150px;
+  height: 100%;
+  background-color: #d7893d;
+  position: fixed;
+  font-family: Georgia, Arial;
+  padding: 25px 0;
+  text-align: center;
+  top: 0;
+
+}
+.wnb-p {
+  margin: 0;
+  text-align: center;
+}
+.martin-van-buren{
+  width: 150px;
+  height: auto;
+}
+.martin-van-buren-long{
+  width: 150px;
+  height: 60%;
+}
+li > a {
+    text-decoration: none;
+}
+
+nav > ul {
+  list-style-type: none;
+  text-align: left;
+}
